@@ -9,7 +9,7 @@ ENV NEO4J_AUTH=neo4j/neo4j123
 ENV NEO4J_server_memory_pagecache_size=512M
 ENV NEO4J_server_memory_heap_initial__size=512M
 ENV NEO4J_server_memory_heap_max__size=512M
-ENV NEO4J_dbms_security_procedures_unrestricted=gds.*,apoc.*
+ENV NEO4J_server_security_procedures_unrestricted=gds.*,apoc.*
 
 # Set data directory paths
 ENV NEO4J_server_directories_data=/neo4j_data
